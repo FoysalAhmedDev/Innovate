@@ -18,32 +18,32 @@ const Header = () => {
           <div>
             <ul className="flex items-center gap-x-10.5">
               <li>
-                <Link to={`/`} className="flex items-center">
+                <Link to={`/`} className="flex items-center hover:text-[#FF7628] ease-in-out duration-500 transition">
                   Home <FaAngleDown />
                 </Link>
               </li>
               <li >
-                <Link to={`/about`} className="flex items-center">
+                <Link to={`/about`} className="flex items-center hover:text-[#FF7628] ease-in-out duration-500 transition">
                   About <FaAngleDown />
                 </Link>
               </li>
               <li>
-                <Link to={`/service`} className="flex items-center">
+                <Link to={`/service`} className="flex items-center hover:text-[#FF7628] ease-in-out duration-500 transition">
                   Service <FaAngleDown />
                 </Link>
               </li>
               <li>
-                <Link to={`/portfolio`} className="flex items-center">
+                <Link to={`/portfolio`} className="flex items-center hover:text-[#FF7628] ease-in-out duration-500 transition">
                   Portfolio <FaAngleDown />
                 </Link>
               </li>
               <li>
-                <Link to={`/price`} className="flex items-center">
+                <Link to={`/price`} className="flex items-center hover:text-[#FF7628] ease-in-out duration-500 transition">
                   Price <FaAngleDown />
                 </Link>
               </li>
               <li>
-                <Link to={`/blog`} className="flex items-center">
+                <Link to={`/blog`} className="flex items-center hover:text-[#FF7628] ease-in-out duration-500 transition">
                   Blog <FaAngleDown />
                 </Link>
               </li>
